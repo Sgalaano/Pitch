@@ -22,7 +22,7 @@ class Config:
     SIMPLEMDE_USE_CDN = True
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://galaano:1234@localhost/pitch_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://galaano:galaano@localhost/pitch_test'
 
 class ProdConfig(Config):
     '''
@@ -39,7 +39,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://galaano:1234@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://galaano:galaano@localhost/pitch'
 
 
     DEBUG = True

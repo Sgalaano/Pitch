@@ -17,7 +17,7 @@ def index():
     title = 'Home - Welcome to The best Pitching Website Online'
 
     search_pitch = request.args.get('pitch_query')
-    pitches= Pitch.get_all_pitches()
+    # pitches= Pitch.get_all_pitches()
 
     return render_template('index.html', title = title, search_pitch = search_pitch)
 
