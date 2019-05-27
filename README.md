@@ -21,8 +21,8 @@ This is an app that allows users to add or create pitches where one can comment 
 | GENERAL BEHAVIOUR | INPUT | OUTPUT|
 |:------------------|:--------|:-----------|
 |User wants to create a pitch| They create an account |user receives an email to welcome them|
-|User wants to view the pitches they have submited| --- |All pitches are dispalyed| ---|
-|User wants to comment on a pitch| --- |They leave feedback on the pitch|
+|User wants to view the pitches they have submited|  They click on view pitches |All pitches are dispalyed| ---|
+|User wants to comment on a pitch| They click on the comment button  |They leave feedback on the pitch|
 |User wants to view different pitch categories| They search for the category |Pitches in that category are displayed|
 
 #Technologies Used
