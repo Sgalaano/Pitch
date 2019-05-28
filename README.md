@@ -8,9 +8,9 @@ This is an app that allows users to add or create pitches where one can comment 
 ### Pitch Categories
 - Technology pitch
 - Business pitch
-- Promotion pitch
+- entertainment pitch
 - Interview pitch
-- Product pitch
+- Business pitch
 ### User Stories
 - A users can see pitches that other people have post
 - A user can comment on different pitches and leave feedback
@@ -23,11 +23,15 @@ This is an app that allows users to add or create pitches where one can comment 
 |User wants to create a pitch| They create an account |user receives an email to welcome them|
 |User wants to view different pitch categories| They search for the category |Pitches in that category are displayed|
 
+ALL THE PITCHES ADDED WILL BE STORED IN THE DATABASE. 
+git clone : https://github.com/Sgalaano/Pitch.git to acces the database 
+
 #Technologies Used
 This project uses major technologies which are :
 - Bootstrap
 - Python3.6
 - flask
+
 ## Support and Contacts
  - sgalaano@gmail.com
  - 0796184389
